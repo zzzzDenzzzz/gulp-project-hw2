@@ -1,0 +1,11 @@
+doctype html 
+html 
+  head
+    link(rel="stylesheet", href="style.css")
+  body
+    - let colors = [`Red`,'Orange','Yellow','Green ','Blue','Indigo','Violet'];
+    ul
+      each color in colors
+        li= color 
+    button(onclick="sayHello(event)") Привет!!!
+    script(src="script.js")
