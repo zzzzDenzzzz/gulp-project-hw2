@@ -12,6 +12,7 @@
     "gulp": "^4.0.2"
   },
   "dependencies": {
+    "browser-sync": "^2.29.3",
     "esm": "^3.2.25",
     "gulp-clean": "^0.4.0",
     "gulp-nop": "^0.0.3",

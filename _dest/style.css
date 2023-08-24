@@ -1,1 +1,38 @@
-body{font-size:xx-large}li:nth-child(1){color:#f00}li:nth-child(2){color:#ffdb00}li:nth-child(3){color:#49ff00}li:nth-child(4){color:#00ff92}li:nth-child(5){color:#0092ff}li:nth-child(6){color:#4900ff}li:nth-child(7){color:#ff00db}
+body {
+  font-size: xx-large;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  padding-top: 0;
+  justify-content: space-evenly;
+}
+span,
+a {
+  padding: 0.5em;
+}
+.active {
+  background-color: #ff0;
+}
+li:nth-child(1) {
+  color: #f00;
+}
+li:nth-child(2) {
+  color: #ffdb00;
+}
+li:nth-child(3) {
+  color: #49ff00;
+}
+li:nth-child(4) {
+  color: #00ff92;
+}
+li:nth-child(5) {
+  color: #0092ff;
+}
+li:nth-child(6) {
+  color: #4900ff;
+}
+li:nth-child(7) {
+  color: #ff00db;
+}
+/*# sourceMappingURL=style.css.map */

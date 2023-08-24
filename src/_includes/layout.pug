@@ -1,0 +1,23 @@
+-
+  const pages = [
+    {href:'/',title:'Home'},
+    {href:'/about.html',title:'About'},
+    {href:'/info/',title:'Info',aside:true},
+    {href:'/contacts.html',title:'Contacts'},    
+  ];
+block init //- установка pageID
+doctype html 
+html 
+  head
+    link(rel="stylesheet", href="/style.css")
+    title= pages[pageID].title
+    block head
+  body
+    include header.pug
+    main
+      h1= pages[pageID].title
+      block content
+    if pages[pageID].aside
+      aside Дополнительный блок
+    include footer.pug
+    script(src="/script.js")
