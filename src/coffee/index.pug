@@ -1,0 +1,28 @@
+extend ../_includes/layout.pug
+block init
+  - const pageID = 4
+block content
+    .options
+      button#americano Americano
+      button#au_lait Au lait
+      button#capuccino Capuccino
+      button#corretto Corretto
+      button#espresso Espresso
+      button#latte Latte
+      button#lungo Lungo
+      button#macchiato Macchiato
+      button#mocha Mocha
+      button#ristretto Ristretto
+    .container
+      h1.coffee_name Choose your coffee
+      .cup
+        .filling.reset
+          .coffee Coffee
+          .water Water
+          .liquor Liquor
+          .milk Milk
+          .whipped_cream Whipped cream
+          .milk_foam Milk foam
+          .steamed_milk Steamed milk
+          .chocolate Chocolate
+        .plate
